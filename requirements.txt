@@ -1,2 +1,2 @@
-PySimpleGUI>=5
+FreeSimpleGUI
 pywin32
