@@ -8,7 +8,7 @@ You may not redistribute, modify or otherwise use PySimpleGUI or its contents ex
 to the PySimpleGUI License Agreement.
 '''
 
-import PySimpleGUI as sg
+import FreeSimpleGUI as sg
 from win32com.client import Dispatch
 import os
 import sys
