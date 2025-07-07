@@ -49,13 +49,13 @@ You can also pip install the PySimpleGUI Applications that are in the PySimpleGU
 #### If you use the command `python` on your computer to invoke Python (Windows):
 
 ```bash
-python -m pip install --upgrade https://github.com/PySimpleGUI/psgshortcut/zipball/main
+python -m pip install --upgrade https://github.com/william20210206/fsgshortcut/zipball/main
 ```
 
 #### If you use the command `python3` on your computer to invoke Python (Linux, Mac):
 
 ```bash
-python3 -m pip install --upgrade https://github.com/PySimpleGUI/psgshortcut/zipball/main
+python3 -m pip install --upgrade https://github.com/william20210206/fsgshortcut/zipball/main
 ```
 
 
