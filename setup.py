@@ -9,24 +9,24 @@ def readme():
 
 
 setuptools.setup(
-name="fsgshortcut",
+name="psgshortcut",
 version="5.0.0",
 author="PySimpleSoft Inc.",
-install_requires=["FreeSimpleGUI","pywin32"],
+install_requires=["PySimpleGUI>=5","pywin32"],
 description="Utility made with PySimpleGUI to create shortcuts of files or programs",
 long_description=readme(),
 long_description_content_type="text/markdown",
 license='Free To Use But Restricted',
-keywords="GUI UI FreeSimpleGUI tkinter fsgshortcut shortcut windows taskbar",
-url="https://github.com/william20210206/fsgshortcut",
+keywords="GUI UI PySimpleGUI tkinter psgshortcut shortcut windows taskbar",
+url="https://github.com/PySimpleGUI/psgshortcut",
 packages=setuptools.find_packages(),
 python_requires=">=3.6",
 classifiers=[
 "Intended Audience :: Developers",
 "License :: Free To Use But Restricted",
 "Operating System :: OS Independent",
-"Framework :: FreeSimpleGUI",
-"Framework :: FreeSimpleGUI :: 5",
+"Framework :: PySimpleGUI",
+"Framework :: PySimpleGUI :: 5",
 "Programming Language :: Python :: 3",
 "Programming Language :: Python :: 3.6",
 "Programming Language :: Python :: 3.7",
@@ -41,7 +41,7 @@ classifiers=[
 package_data={"":
 ["*","*.*"]
         },
-entry_points={"gui_scripts": ["fsgshortcut=fsgshortcut.fsgshortcut:main", ], },
+entry_points={"gui_scripts": ["psgshortcut=psgshortcut.psgshortcut:main", ], },
 
 )
 
